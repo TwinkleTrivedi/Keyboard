@@ -1,6 +1,6 @@
 Download the project.
 
-#Challenge
+# Challenge
 1. When we start editing the birthday, the view moves up and the birthday `UITextField` moves to right above the keyboard;
 2. Don't accept inputs when the number of characters exceed the length of this format: "MM/DD/YYYY";
 3. Automatically insert or remove "/" to or from the appropriate positions;
