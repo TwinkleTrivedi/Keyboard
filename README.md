@@ -6,5 +6,3 @@ Download the project.
 3. Automatically insert or remove "/" to or from the appropriate positions;
 4. Tap on anywhere of the view to end editing.
 5. When we end editing the bithday, the view moves down to the original position.
-
-Take a look at this example for reference: [https://share.getcloudapp.com/9Zudydpj]
