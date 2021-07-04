@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="width" secondItem="Tqh-ui-fLK" secondAttribute="height" id="Nei-4b-uh2"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VGU-VM-2wJ">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MM/DD/YYYY" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VGU-VM-2wJ">
                                 <rect key="frame" x="20" y="701" width="374" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="RMH-di-6ha"/>
