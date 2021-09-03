@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="width" secondItem="Tqh-ui-fLK" secondAttribute="height" id="Nei-4b-uh2"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MM/DD/YYYY" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VGU-VM-2wJ">
+                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MM/DD/YYYY" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VGU-VM-2wJ">
                                 <rect key="frame" x="20" y="701" width="374" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="RMH-di-6ha"/>
@@ -47,6 +47,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="sli-GJ-t88"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthday:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEz-Pv-IMu">
                                 <rect key="frame" x="20" y="660" width="76" height="21"/>
@@ -81,9 +84,15 @@
                             <constraint firstItem="VGU-VM-2wJ" firstAttribute="top" secondItem="UEz-Pv-IMu" secondAttribute="bottom" constant="20" id="erH-a6-X7r"/>
                             <constraint firstItem="Tqh-ui-fLK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jDf-BZ-D2X"/>
                             <constraint firstItem="Cxn-zg-Nx9" firstAttribute="top" secondItem="vbX-gQ-AzJ" secondAttribute="bottom" constant="8" id="kVg-QR-Wq5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VGU-VM-2wJ" secondAttribute="bottom" constant="111" id="s5e-PP-JHe"/>
                             <constraint firstItem="UEz-Pv-IMu" firstAttribute="top" secondItem="Tqh-ui-fLK" secondAttribute="bottom" constant="20" id="x4g-3L-ul8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backview" destination="8bC-Xf-vdC" id="Bc7-ji-RGW"/>
+                        <outlet property="birthdayField" destination="VGU-VM-2wJ" id="ycP-hy-QQS"/>
+                        <outlet property="textbottomConstraints" destination="s5e-PP-JHe" id="npu-AG-lXe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
